@@ -168,6 +168,8 @@
                             <i class="fab fa-2x fa-facebook-square"></i>
                             &nbsp;&nbsp;
                             <i class="fab fa-2x fa-instagram"></i>
+                            &nbsp;&nbsp;
+                            <i class="fab fa-2x fa-linkedin-in"></i>
                             <br />
                             <br />
                             <br />

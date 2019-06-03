@@ -48,7 +48,7 @@
             <div class="pagewidth">
                 <div class="title_ser">
                     <h1>Projects</h1>
-                    <h2>Look what we are be working on</h2>
+                    <h2>Look what we are working on</h2>
                 </div>
                 <br />
                 <br />
@@ -99,6 +99,10 @@
                 <br />
                 <br />
                 <br />
+            </div>
+        </div>
+        <div class="subcontent" id="page3_pr">
+            <div class="pagewidth">
             </div>
         </div>
         <div class="subcontent" id="page5">
@@ -156,6 +160,8 @@
                             <i class="fab fa-2x fa-facebook-square"></i>
                             &nbsp;&nbsp;
                             <i class="fab fa-2x fa-instagram"></i>
+                            &nbsp;&nbsp;
+                            <i class="fab fa-2x fa-linkedin-in"></i>
                             <br />
                             <br />
                             <br />

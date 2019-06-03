@@ -74,14 +74,14 @@
                 <h4>We are small but multidisciplinary team, focus in challenges related to digital product development, marketing, operations, and business strategy. Our purpose is to unleash the collective genius of our people, our clients, and our partners to accomplish our goals.</h4>
 
                 <ul class="flex-0">
-                    <li><b>Logics </b>Desktop
-                        <p>Desktop application has the power to be always visible, and even always open. We build applications for Windows, Linux and MacOS. If you want faster development and more regularity in your operations, this could be the right solution for your needs.</p>
-                    </li>
                     <li><b>Logics </b>Web
                         <p>Code once and works anywhere. Do you want a personal, corporate, functional page? We help you with all the things that are involved in web development. We use CMS's, Frameworks, High Level Languages, custom websites.</p>
                     </li>
                     <li><b>Logics </b>Mobile
                         <p>Ready to give massive or corporate services. We build Cross Platform or native applications for Windows Mobile, Android and IOS.</p>
+                    </li>
+                    <li><b>Logics </b>Desktop
+                        <p>Desktop application has the power to be always visible, and even always open. We build applications for Windows, Linux and MacOS. If you want faster development and more regularity in your operations, this could be the right solution for your needs.</p>
                     </li>
                     <li><b>Logics </b>Database
                         <p>Without question, the software industry is a data-driven environment. So, everything depends on it. We are experts in Oracle, SQL Server, PostgreSQL, Cassandra and many others databases.</p>
@@ -254,6 +254,8 @@
                             <i class="fab fa-2x fa-facebook-square"></i>
                             &nbsp;&nbsp;
                             <i class="fab fa-2x fa-instagram"></i>
+                            &nbsp;&nbsp;
+                            <i class="fab fa-2x fa-linkedin-in"></i>
                             <br />
                             <br />
                             <br />
