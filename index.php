@@ -291,7 +291,7 @@
     <script src="scripts/pageAnimation.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">
         $(window).on('load', function () {
-             $('#overlay').delay(3000).addClass("hideClass");
+             $('#overlay').delay(3000).addClass("hideClass").delay(1500).hide(1500);
         });
     </script>
 </body>
