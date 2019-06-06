@@ -616,3 +616,8 @@ ul.services-details li ol:before {
 
 @-webkit-keyframes fadeOut { 0% {oppacity:1} 100% {opacity: 0;} }
 @keyframes fadeOut { 0% {oppacity:1} 100% {opacity: 0;} }
+
+
+.dis {
+    display: none !important;
+}
