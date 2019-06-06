@@ -187,5 +187,10 @@
             <li><h3>We love everything about <b>technology</b>, but not above being <b>human</b></h3></li>
         </ul>
     </div>
+    <script language="javascript" type="text/javascript">
+        $(window).on('load', function () {
+             $('#overlay').delay(1000).addClass("hideClass");
+        });
+    </script>
 </body>
 </html>

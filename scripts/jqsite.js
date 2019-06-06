@@ -19,10 +19,10 @@ function loadbar() {
             return doneLoading();
     }
     function doneLoading() {
-        ovrl.style.opacity = 0;
+       /* ovrl.style.opacity = 0;
         setTimeout(function () {
             ovrl.style.display = "none";
-        }, 3200);
+        }, 3200);*/
     }
     for (var i = 0; i < tot; i++) {
         var tImg = new Image();
@@ -31,6 +31,8 @@ function loadbar() {
         tImg.src = img[i].src;
     }
 }
+
+
 document.addEventListener('DOMContentLoaded', loadbar, false);
 $(document).ready(function () {
 //var current = 0;

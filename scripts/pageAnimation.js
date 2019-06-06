@@ -194,22 +194,4 @@ function render() {
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
-function mouseMove(e) {
-    if (e.clientX > mouse.x) {
-        camera.position.x += cameraMoves.speed;
-    } else {
-        camera.position.x += -cameraMoves.speed;
-    }
-    if (e.clientY > mouse.y) {
-        camera.position.y += -cameraMoves.speed;
-    } else {
-        camera.position.y += cameraMoves.speed;
-    }
-
-    mouse.x = e.clientX;
-    mouse.y = e.clientY;
-
-    renderer.render(scene, camera);
-    camera.updateProjectionMatrix();
-}
-window.addEventListener('mousemove', mouseMove);
+//window.addEventListener('mousemove', mouseMove);

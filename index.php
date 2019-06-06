@@ -4,8 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
         <title>Logics Studio</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link href="css/site_fonts.css" rel="stylesheet" type="text/css" />
-        <link href="css/site.css" rel="stylesheet" type="text/css" />
+        <link href="./css/site_fonts.css" rel="stylesheet" type="text/css" />
+        <link href="./css/site.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="scripts/jquery.js"></script>
         <script type="text/javascript" src="scripts/jqsite.js"></script>
         <script type="text/javascript" src="scripts/angularjs.js"></script>
@@ -155,14 +155,16 @@
                 <br />
                 <ul class="flex-3">
                     <li><div><br/><br/><br/><span>Alex Martinez<br/>Founder & Leader & Developer</span></div></li>
-                    <li><div><br/><br/><br/><span>Gisilbek Parra<br/>Developer</span></div></li>
-                    <li><div><br/><br/><br/><span>Ana Márquez<br/>Developer</span></div></li>
                     <li><div><br/><br/><br/><span>Alfredo Rico<br/>Developer</span></div></li>
-                    <li><div><br/><br/><br/><span>Francisco Morales<br/>Developer</span></div></li>
-                    <li><div><br/><br/><br/><span>Luis Rodríguez<br/>Developer</span></div></li>
-                    <li><div><br/><br/><br/><span>Manuel Acosta<br/>DBA Admin</span></div></li>
+                    <li><div><br/><br/><br/><span>Ana Márquez<br/>Developer</span></div></li>
                     <li><div><br/><br/><br/><span>Fernando Moreno<br/>OS Admin</span></div></li>
+                    <li><div><br/><br/><br/><span>Francisco Morales<br/>Developer</span></div></li>
+                    <li><div><br/><br/><br/><span>Gisilbek Parra<br/>Developer</span></div></li>
+                    <li><div><br/><br/><br/><span>John Yaya<br/>OS Admin</span></div></li>
+                    <li><div><br/><br/><br/><span>Luis Rodríguez<br/>Developer</span></div></li>
                     <li><div><br/><br/><br/><span>Maiker Gutierrez<br/>OS Admin</span></div></li>
+                    <li><div><br/><br/><br/><span>Manuel Acosta<br/>DBA Admin</span></div></li>
+                    <li><div><br/><br/><br/><span>Akira & Lucky<br/>Provide Happiness</span></div></li>
                     <li><div><span><i class="fas fa-3x fa-user-astronaut"></i></span><span>You<br/>Apply for your next job</span></div></li>
                 </ul>
             </div>
@@ -287,5 +289,10 @@
         </ul>
     </div>
     <script src="scripts/pageAnimation.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        $(window).on('load', function () {
+             $('#overlay').delay(1000).addClass("hideClass");
+        });
+    </script>
 </body>
 </html>
